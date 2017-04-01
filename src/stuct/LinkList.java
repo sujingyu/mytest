@@ -1,7 +1,13 @@
 package stuct;
 
 import java.util.Stack;
-
+/**
+ * 链表的实现
+ * http://www.cnblogs.com/smyhvae/p/4782595.html
+ * 面试提
+ * @author kingdee
+ *
+ */
 public class LinkList {
 	private  int lenth = 0;
 	private node head = null;

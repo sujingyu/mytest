@@ -37,4 +37,7 @@ public class Strack {
 			System.out.println(s.size+" "+s.pop());
 		}
 	}
+	
+	
+	
 }
