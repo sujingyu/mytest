@@ -1,11 +1,11 @@
 package stuct;
 
-public class QueueBy2Strack {
+public class QueueBy2Stack {
 
 	public int size = 0;
 	
-	public Strack inter = new Strack();
-	public Strack outer = new Strack();
+	public Stack inter = new Stack();
+	public Stack outer = new Stack();
 	
 	public void add(int i){
 		inter.push(i);
@@ -26,7 +26,7 @@ public class QueueBy2Strack {
 	
 	
 	public static void main(String[] args) {
-		QueueBy2Strack q = new QueueBy2Strack();
+		QueueBy2Stack q = new QueueBy2Stack();
 		for(int i =0;i<3;i++){
 			q.add(i);
 		}

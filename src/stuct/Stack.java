@@ -1,6 +1,6 @@
 package stuct;
 
-public class Strack {
+public class Stack {
 	
 	public int size = 0;
 	public Node head = null;
@@ -20,6 +20,10 @@ public class Strack {
 		size++;
 	}
 	
+	public int  peek(){
+		return (head!=null)?head.data:0;
+	}
+	
 	public int pop(){
 		Node temp = head;
 		head = head.next;
@@ -28,7 +32,7 @@ public class Strack {
 	}
 	
 	public static void main(String[] args) {
-		Strack s = new Strack();
+		Stack s = new Stack();
 		for(int i=0;i<5;i++){
 			s.push(i);
 		}
