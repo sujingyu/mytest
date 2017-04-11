@@ -6,6 +6,7 @@ public class Test extends Thread{
 	public void run() {
 		getName();
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(new Date(1465747200000l));
