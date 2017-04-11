@@ -1,10 +1,15 @@
-package threadpool;
+package thread;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import threadpool.TestPool.Task;
+import thread.TestPool.Task;
 
+/**
+ * 线程池的默认实现
+ * @author kingdee
+ *
+ */
 public class DefaultPool {
 
 	//可缓存的线程池 队列只能存放一个任务 但是最大线程数量为无限大

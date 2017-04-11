@@ -1,4 +1,4 @@
-package threadpool;
+package thread;
 
 
 public class TestPool {
