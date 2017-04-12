@@ -14,6 +14,11 @@ public class TestPool {
 		tp.destroy();
 	}
 	
+	/**
+	 * 任务
+	 * @author kingdee
+	 *
+	 */
 	public class Task implements  Runnable {
 		public int i = 0;
 		public Task(int x) {
