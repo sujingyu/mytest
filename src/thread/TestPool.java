@@ -26,7 +26,6 @@ public class TestPool {
 		}
 		public void run() {
 			System.out.println(Thread.currentThread().getName()+" "+i);
-
 		}
 	}
 }
