@@ -13,6 +13,5 @@ public class HttpClient {
 		Future<Response> f = client.prepareGet("https://www.baidu.com").execute();
 		Response r = f.get();
 		
-		
 	}
 }

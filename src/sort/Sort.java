@@ -204,7 +204,7 @@ public class Sort {
 	public static void main(String[] args) {
 		int[] a = { 9, 3, 4, 5, 6, 2, 3, 8, 7, 1 };
 		int[] b = a;
-		mergeSort(a,b,0, a.length - 1);
+		quickSort(a, 0, a.length - 1);
 		System.out.println(Arrays.toString(b));
 
 	}

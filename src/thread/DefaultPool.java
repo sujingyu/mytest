@@ -13,13 +13,13 @@ import thread.TestPool.Task;
 public class DefaultPool {
 
 	//可缓存的线程池 队列只能存放一个任务 但是最大线程数量为无限大
-//	public static ExecutorService cachePool = Executors.newCachedThreadPool();
+	public static ExecutorService cachePool = Executors.newCachedThreadPool();
 	//固定大小的线程池 队列大小为无限大
-//	public static ExecutorService fixedPool = Executors.newFixedThreadPool(3);
+	public static ExecutorService fixedPool = Executors.newFixedThreadPool(3);
 	//固定大小为1的线程池 队列大小为无限大 等同于 newFixedThreadPool(1)
-//	public static ExecutorService singlePool = Executors.newSingleThreadExecutor();
+	public static ExecutorService singlePool = Executors.newSingleThreadExecutor();
 	//可以执行定时任务的线程池，最大线程数量为无限大
-//	public static ExecutorService scheduledPool = Executors.newScheduledThreadPool(3);
+	public static ExecutorService scheduledPool = Executors.newScheduledThreadPool(3);
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
